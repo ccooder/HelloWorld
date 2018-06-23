@@ -144,3 +144,9 @@ mojombo#1
 mojombo/github-flavored-markdown#1
 
 ~~this~~
+
+
+## Python遇到的问题
+* 关于TCP socket
+    > [] 当在tcp socket中（无论是客户端还是服务器中提供服务的套接字)
+         主动发送了一个`b''`的消息，会导致客户端和服务器端阻塞
